@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-// import { ComputersCanvas } from "./canvas";
+import { ComputersCanvas } from "./canvas";
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
@@ -31,7 +31,7 @@ const Hero = () => {
             {/* interfaces and web applications */}
       {/* I develop 3D visuals, user */}
 
-      {/* <ComputersCanvas /> */}
+      <ComputersCanvas />
       {/* rectangle appear in the lower side */}
       <div className="absolute xs:bottom-2 bottom-35 w-full flex justify-center items-center">
         <a href="#about">
